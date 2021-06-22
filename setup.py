@@ -15,4 +15,4 @@ setuptools.setup(
 
 # because this is a demo of Pluto, we add some popular packages to the global package env and precompile
 import os
-os.system('julia -e "import Pkg; Pkg.activate("home/jovyan"); Pkg.add([\\"DataFrames\\", \\"CSV\\", \\"Plots\\", \\"DifferentialEquations\\", \\"LabelledArrays\\", \\"PlutoUI\\", \\"Catlab\\", \\"Colors\\", \\"AlgebraicPetri\\"]); Pkg.precompile()"')
+os.system('julia -e "import Pkg; Pkg.activate("home/jovyan"); Pkg.add([\\"DataFrames\\", \\"CSV\\", \\"Plots\\", \\"DifferentialEquations\\", \\"LabelledArrays\\", \\"PlutoUI\\", \\"Catlab\\", \\"Colors\\", \\"AlgebraicPetri\\", \\"CSV\\", \\"DataFrames\\"]); Pkg.precompile()"')
