@@ -14,5 +14,5 @@ PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
 
 [compat]
-julia = "1.6"
-Catlab = "0.12.5"
+julia = "=1.6"
+Catlab = "=0.12.5"
